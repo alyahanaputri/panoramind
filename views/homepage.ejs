@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <%- include('layout/header.ejs') %>
+    <section class="home">
+      <div class="content1">
+        <h1>Apa itu PANORAMIND?</h1>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                consequat nisi facilisis, elementum nibh quis, vehicula arcu.
+                Curabitur orci massa, accumsan sed molestie et, consectetur ac
+                enim. Ut tempus turpis turpis, sed gravida erat vehicula ac.
+                Etiam pretium ipsum turpis, et interdum libero volutpat at.
+                Suspendisse ac neque nec lectus finibus aliquam. Mauris vel
+                dictum ligula. Ut condimentum velit at neque elementum euismod.
+                Cras vel convallis purus. Etiam elementum mauris id condimentum
+                viverra. Donec varius pharetra ex, vitae mollis ipsum efficitur
+                vitae. Donec pulvinar diam vitae sem dictum euismod. Morbi
+                tempor diam enim, at molestie purus consectetur et. Suspendisse
+                potenti. Aliquam dignissim et eros a porttitor. Sed egestas
+                libero ac nisi imperdiet porttitor. Nullam quam magna, lacinia
+                sed ligula sed, iaculis varius est. Praesent et tellus vel augue
+                molestie dignissim. Duis consequat malesuada ornare. Quisque
+                risus neque, sagittis a sagittis at, euismod non erat. Vivamus
+                varius lorem nec eleifend molestie. Vivamus rhoncus eu lectus
+                sit amet suscipit. Suspendisse sed rutrum magna. Maecenas ut
+                arcu metus. Duis lectus odio, tempus id dolor id, congue
+                suscipit tellus. Duis dignissim malesuada est. Praesent cursus
+                cursus odio convallis cursus. Proin sapien nibh, euismod sed ex
+                ut, pulvinar scelerisque est.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                consequat nisi facilisis, elementum nibh quis, vehicula arcu.
+                Curabitur orci massa, accumsan sed molestie et, consectetur ac
+                enim. Ut tempus turpis turpis, sed gravida erat vehicula ac.
+                Etiam pretium ipsum turpis, et interdum libero volutpat at.
+                Suspendisse ac neque nec lectus finibus aliquam. Mauris vel
+                dictum ligula. Ut condimentum velit at neque elementum euismod.
+                Cras vel convallis purus. Etiam elementum mauris id condimentum
+                viverra. Donec varius pharetra ex, vitae mollis ipsum efficitur
+                vitae. Donec pulvinar diam vitae sem dictum euismod. Morbi
+                tempor diam enim, at molestie purus consectetur et. Suspendisse
+                potenti. Aliquam dignissim et eros a porttitor. Sed egestas
+                libero ac nisi imperdiet porttitor. Nullam quam magna, lacinia
+                sed ligula sed, iaculis varius est. Praesent et tellus vel augue
+                molestie dignissim. Duis consequat malesuada ornare. Quisque
+                risus neque, sagittis a sagittis at, euismod non erat. Vivamus
+                varius lorem nec eleifend molestie. Vivamus rhoncus eu lectus
+                sit amet suscipit. Suspendisse sed rutrum magna. Maecenas ut
+                arcu metus. Duis lectus odio, tempus id dolor id, congue
+                suscipit tellus. Duis dignissim malesuada est. Praesent cursus
+                cursus odio convallis cursus. Proin sapien nibh, euismod sed ex
+                ut, pulvinar scelerisque est.
+              </p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <a href="More">Lebih Lanjut</a>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="headerFeatures">
+        <h1>FITUR KAMI</h1>
+        <a href="#">FITUR LEBIH LANJUT</a>
+      </div>
+      <div class="feature-cards">
+        <div class="card">
+          <div class="info">
+            <i class="fas fa-comments"></i>
+            <h1>Komunikasi</h1>
+            <p>
+              Meningkatkan kolaborasi melalui platform komunikasi yang inovatif.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="info">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h1>Pendidikan</h1>
+            <p>Menawarkan solusi pendidikan yang interaktif dan modern.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="info">
+            <i class="fas fa-heartbeat"></i>
+            <h1>Kesehatan</h1>
+            <p>
+              Menghadirkan inovasi teknologi untuk meningkatkan layanan
+              kesehatan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="scroll-up">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <div class="contentHome">
+      <hr />
+      <h1 class="styled-title">Artikel Kami</h1>
+      <hr />
+      <div class="post-list">
+        <div class="post-item">
+          <h3>Energi Terbarukan!</h3>
+          <div class="info">
+            <h5>5 Jan 2024</h5>
+            <h5>|</h5>
+            <h5>STEM, Environment</h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            pariatur porro quaerat provident corporis facere ex voluptatibus
+            laudantium voluptates quos.
+          </p>
+          <div class="buttons">
+            <i class="bx bx-share"></i>
+            <i class="bx bx-link-alt"></i>
+            <i class="bx bx-copy"></i>
+            <i class="bx bx-bookmark-plus"></i>
+            <a href="/energi-terbarukan" class="button">Read More</a>
+          </div>
+        </div>
+
+        <div class="post-item">
+          <h3>Making a layout system from scratch</h3>
+          <div class="info">
+            <h5>12 Jan 2024</h5>
+            <h5>|</h5>
+            <h5>Design, Layout</h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            pariatur porro quaerat provident corporis facere ex voluptatibus
+            laudantium voluptates quos.
+          </p>
+          <div class="buttons">
+            <i class="bx bx-share"></i>
+            <i class="bx bx-link-alt"></i>
+            <i class="bx bx-copy"></i>
+            <i class="bx bx-bookmark-plus"></i>
+            <a href="/" class="button">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('layout/footer.ejs') %>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP8xCjN1HJzevC0UTxRWLLkBw58YUV61I5lEZQG1AqE="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-QF1dV9COmJRL4Gv7aN1Iwo66rI7F6j35hOwUpbh0DfFlFg+HOcBXqgBvqoyKfYwJ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<div class="sidebar">
+  <div class="card">
+    <div class="card-header">Judul Artikel</div>
+    <ul class="list-group list-group-flush">
+      <% items.forEach(function(item) { %>
+      <li class="list-group-item">
+        <button
+          class="article-button"
+          onclick="loadArticle('<%= item.link %>')"
+        >
+          <%= item.name %>
+        </button>
+      </li>
+      <% }); %>
+    </ul>
+  </div>
+  <hr />
+  <button class="collapse-button" onclick="toggleSidebar()">
+    Collapse Sidebar
+  </button>
+</div>
